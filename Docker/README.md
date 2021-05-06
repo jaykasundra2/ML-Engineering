@@ -113,3 +113,5 @@ Just convert the data into JSON form and send a POST request
 ## References
 - https://towardsdatascience.com/docker-made-easy-for-data-scientists-b32efbc23165
 - https://github.com/gaganmanku96/Docker-Tutorial---Data-Scientists
+- https://www.simplilearn.com/tutorials/docker-tutorial/docker-compose8
+- https://www.educative.io/blog/docker-compose-tutorial#compose
