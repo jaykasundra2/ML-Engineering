@@ -3,7 +3,7 @@
 ### What is a docker and why to use it?
 Docker makes machine learning model deployment easy. For example- while building your model you setup production environment on your local system with all the dependencies. Now, you have to replace exact same steps on server and consider there are 4 servers. It will become a tedious task to replace and there also changes that might screw a step. With DOCKER you can create a Dockerfile which will be do all our tasks on as much machines as we want.
 
-## Medium Article [link](https://towardsdatascience.com/docker-made-easy-for-data-scientists-b32efbc23165)
+
 
 ### How to write Dockerfile
 #### Elements
@@ -108,3 +108,8 @@ Just convert the data into JSON form and send a POST request
 1. The part or lines that will be least updated should be placed at Top and the lines which will be modified most should be placed at the bottom. Why? Everytime you make an update to Dockerfile, all the lines after that will run again.
 2. After any change you'll have to build the Dockerfile again and delete the old one.
 3. In case when there are more frequent operations then do all compulsory step in one image and then use it as base image to reduce overall container size and build time.
+
+
+## References
+- https://towardsdatascience.com/docker-made-easy-for-data-scientists-b32efbc23165
+- https://github.com/gaganmanku96/Docker-Tutorial---Data-Scientists
