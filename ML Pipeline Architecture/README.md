@@ -1,0 +1,1 @@
+This is to list down good ideas and resources to architect a Scalable ML Application in Production
